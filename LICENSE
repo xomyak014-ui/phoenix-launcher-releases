@@ -1,0 +1,397 @@
+PHOENIX LAUNCHER
+END USER LICENSE AGREEMENT (EULA)
+
+Software: PHOENIX Launcher
+Version:  3.8
+Effective date: 12 August 2026
+Copyright (c) 2026 ХоМыЧ / Homych. All rights reserved.
+
+This document is provided in English and in Russian.
+For users located in the Russian Federation, the Russian text is
+controlling. For all other users, the English text is controlling.
+If the two versions conflict, the controlling language prevails.
+
+===== ENGLISH =====
+
+END USER LICENSE AGREEMENT
+
+PHOENIX Launcher
+Copyright (c) 2026 ХоМыЧ / Homych. All rights reserved.
+
+This End User License Agreement (the "Agreement") is a legally binding
+contract between you (an individual or a legal entity, "you" or the
+"Licensee") and ХоМыЧ / Homych (the "Licensor" or the "Author")
+concerning PHOENIX Launcher, including the installer, executable files,
+user interface, documentation, published source code (if any), updates
+and related materials (collectively, the "Software").
+
+By downloading, installing, copying, launching or otherwise using the
+Software, you accept this Agreement. If you do not agree, do not
+install or use the Software and delete all copies in your possession.
+
+1. DEFINITIONS
+
+1.1. "Official build" means an installer or packaged application
+     published by the Author (including GitHub Releases of the
+     phoenix-launcher-releases repository).
+1.2. "Fork" means a modified copy of published source code that is
+     clearly identified as a modification and is not presented as an
+     official PHOENIX product.
+1.3. "Commercial distribution of the Software" means selling, renting,
+     leasing, sublicensing, or charging a fee for the Software itself,
+     for access to its download, or for a rebranded / repackaged
+     version of it.
+
+2. GRANT OF LICENSE
+
+Subject to this Agreement, the Author grants you a personal,
+non-exclusive, non-transferable, royalty-free, revocable license to:
+
+(a) install and use the Software on computers you control;
+(b) use the Software to administer SCUM dedicated servers that you own
+    or are lawfully authorised to operate;
+(c) make a reasonable number of backup copies for your own use,
+    provided that copyright notices and PHOENIX branding remain intact.
+
+The Software is licensed, not sold. No title or ownership is
+transferred to you.
+
+Using the Software on a game server that accepts donations, VIP or
+similar in-game perks is permitted. That does not allow you to sell
+the Software itself.
+
+3. SOURCE CODE
+
+The Author may publish source code of the Software. If source code is
+published, you may:
+
+(a) view, fork and modify it for private use and for servers you
+    operate;
+(b) share your modified source, free of charge, for non-commercial
+    community use, provided you clearly state that it is a fork or
+    modification and you do not present yourself as the original
+    Author of PHOENIX.
+
+Publication of source code does not grant any right to sell the
+Software, sell a rebranded fork, or sell packaged builds as a
+commercial product without the Author's prior written permission.
+
+4. RESTRICTIONS
+
+You must not, and must not permit others to:
+
+(a) sell, rent, lease, sublicense or otherwise commercially distribute
+    the Software or a rebranded / repackaged version of it;
+(b) charge a fee for downloading official builds or host them as if
+    they were your own paid product;
+(c) claim authorship of PHOENIX, remove or replace branding in
+    distributed builds, or misrepresent your relationship with the
+    Author;
+(d) remove, alter or obscure copyright notices, logos, trademarks or
+    the product name in distributed copies;
+(e) extract modules, scripts, assets or features from the Software and
+    sell them as a separate paid product without prior written
+    permission;
+(f) use the Software for any purpose that is unlawful or that violates
+    the terms of SCUM, Steam, Discord or other third-party services
+    you connect through the Software.
+
+5. THIRD-PARTY SOFTWARE AND SERVICES
+
+The Software may download, install, launch or communicate with
+third-party components. Those components remain under their own
+licences and terms. This Agreement does not grant any rights in them.
+Examples include, without limitation:
+
+- UE4SS — typically MIT, as distributed by upstream;
+- SteamCMD — Valve / Steam terms;
+- Electron and npm dependencies — their respective licences;
+- SCUM and the SCUM dedicated server — publisher / developer EULA;
+- Discord — Discord Terms of Service.
+
+You are solely responsible for complying with those terms.
+
+6. UPDATES AND SUPPORT
+
+The Author may publish updates at the Author's sole discretion and is
+not obliged to provide free updates, free technical support or
+continued development.
+
+The launcher may check GitHub for newer official Setup files and offer
+to install them. Download and install happen only after you confirm.
+Updating the launcher does not stop or modify the SCUM dedicated
+server — the game server keeps running as it is.
+
+Requests for custom features or paid work may be discussed privately
+(Discord: xoma_kz_ekb) and are arranged separately.
+
+7. INTELLECTUAL PROPERTY
+
+All copyright, trademarks and other intellectual property rights in
+the Software (except third-party components) belong to the Author.
+PHOENIX, PHOENIX Launcher and related branding are used to identify
+the Author's product.
+
+8. DISCLAIMER OF WARRANTIES
+
+THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY
+OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,
+TITLE AND NON-INFRINGEMENT.
+
+The Author does not warrant that the Software will be uninterrupted,
+error-free, compatible with every SCUM, Windows or dependency version,
+or free from data loss or other adverse effects.
+
+9. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE AUTHOR SHALL
+NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR
+PUNITIVE DAMAGES, OR FOR ANY LOSS OF PROFITS, DATA, GOODWILL OR
+BUSINESS INTERRUPTION, ARISING OUT OF OR RELATED TO THE SOFTWARE,
+EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+Without limiting the foregoing, the Author is not liable for:
+
+- game, platform or anti-cheat bans or penalties;
+- loss or corruption of server files, databases or configuration;
+- downtime, crashes, failed updates or misconfiguration;
+- actions of third-party software or services.
+
+Nothing in this Agreement excludes or limits liability that cannot be
+excluded or limited under applicable law, including mandatory
+consumer-protection rules.
+
+10. TERM AND TERMINATION
+
+This Agreement remains in effect until terminated. It terminates
+automatically if you materially breach it.
+
+Upon termination you must stop using the Software and destroy
+infringing distributed copies, except where applicable law requires
+otherwise. Sections 4, 5, 7, 8, 9, 11 and 12 survive termination.
+
+11. CHANGES
+
+The Author may update this Agreement in future releases. If you
+continue to use the Software after an update, you accept the revised
+terms to the extent permitted by law.
+
+12. GOVERNING LAW
+
+This Agreement is governed by the laws of the Russian Federation,
+without regard to conflict-of-law rules. Mandatory protections of
+your country of residence remain unaffected.
+
+Disputes shall first be attempted to be resolved by negotiation.
+If unresolved, they shall be submitted to the competent courts at the
+Author's place of residence, unless mandatory law requires otherwise.
+
+13. MISCELLANEOUS
+
+If any provision is held invalid, the remaining provisions continue
+in full force. This Agreement is the entire agreement between you and
+the Author concerning the Software and supersedes prior statements on
+the same subject. Failure to enforce a provision is not a waiver.
+
+14. CONTACT AND ACCEPTANCE
+
+Author:  ХоМыЧ / Homych
+Discord: xoma_kz_ekb
+GitHub:  https://github.com/xomyak014-ui/phoenix-launcher-releases
+
+Installing or using PHOENIX Launcher constitutes acceptance of this
+Agreement.
+
+===== RUSSIAN =====
+
+ЛИЦЕНЗИОННОЕ СОГЛАШЕНИЕ С КОНЕЧНЫМ ПОЛЬЗОВАТЕЛЕМ
+
+PHOENIX Launcher
+Copyright (c) 2026 ХоМыЧ / Homych. Все права защищены.
+
+Настоящее лицензионное соглашение (далее — «Соглашение») является
+договором между вами (физическим или юридическим лицом, далее —
+«Лицензиат», «вы») и ХоМыЧ / Homych (далее — «Лицензиар», «Автор»)
+в отношении программы PHOENIX Launcher, включая установщик,
+исполняемые файлы, интерфейс, документацию, опубликованный исходный
+код (при наличии), обновления и сопутствующие материалы (далее —
+«Программное обеспечение», «ПО»).
+
+Загрузка, установка, копирование, запуск или иное использование ПО
+означает принятие Соглашения. Если вы не согласны с условиями —
+не устанавливайте и не используйте ПО и удалите все имеющиеся копии.
+
+1. ТЕРМИНЫ
+
+1.1. «Официальная сборка» — установщик или упакованное приложение,
+     опубликованные Автором (в том числе в GitHub Releases
+     репозитория phoenix-launcher-releases).
+1.2. «Форк» — изменённая копия опубликованного исходного кода,
+     которая явно обозначена как модификация и не выдаётся за
+     официальный продукт PHOENIX.
+1.3. «Коммерческое распространение ПО» — продажа, сдача в аренду,
+     сублицензирование либо взимание платы за само ПО, за доступ
+     к его скачиванию или за ребрендированную / перепакованную
+     версию.
+
+2. ПРЕДОСТАВЛЕНИЕ ЛИЦЕНЗИИ
+
+При условии соблюдения Соглашения Автор предоставляет вам личную,
+неисключительную, непередаваемую, безвозмездную и отзывную лицензию
+на:
+
+(a) установку и использование ПО на компьютерах, которыми вы
+    управляете;
+(b) использование ПО для администрирования выделенных серверов SCUM,
+    которыми вы владеете или которые вы законно уполномочены
+    обслуживать;
+(c) создание разумного числа резервных копий для собственного
+    использования при сохранении уведомлений об авторском праве
+    и оформления PHOENIX.
+
+ПО предоставляется на условиях лицензии, а не продаётся. Право
+собственности к вам не переходит.
+
+Использование ПО на игровом сервере, где принимаются пожертвования,
+продаётся VIP или иные внутриигровые услуги, разрешено. Это не даёт
+права продавать само Программное обеспечение.
+
+3. ИСХОДНЫЙ КОД
+
+Автор вправе опубликовать исходный код ПО. Если исходный код
+опубликован, вы можете:
+
+(a) просматривать, создавать форки и изменять его для личного
+    использования и для серверов, которые вы администрируете;
+(b) безвозмездно распространять свой изменённый исходный код для
+    некоммерческого community-использования, ясно указывая, что это
+    форк или модификация, и не выдавая себя за оригинального Автора
+    PHOENIX.
+
+Публикация исходного кода не даёт права продавать ПО, продавать
+ребрендированный форк или продавать готовые сборки как коммерческий
+продукт без предварительного письменного разрешения Автора.
+
+4. ОГРАНИЧЕНИЯ
+
+Запрещается самостоятельно и через третьих лиц:
+
+(a) продавать, сдавать в аренду, сублицензировать или иным образом
+    коммерчески распространять ПО либо его ребрендированную /
+    перепакованную версию;
+(b) брать плату за скачивание официальных сборок или выдавать их
+    за свой платный продукт;
+(c) присваивать авторство PHOENIX, снимать или подменять брендинг
+    в распространяемых сборках, искажать связь с Автором;
+(d) удалять, изменять или скрывать уведомления об авторском праве,
+    логотипы, товарные обозначения и название продукта;
+(e) извлекать модули, скрипты, ресурсы или функции из ПО и продавать
+    их как отдельный платный продукт без письменного разрешения;
+(f) использовать ПО в целях, противоречащих закону либо условиям
+    SCUM, Steam, Discord и иных сервисов, к которым ПО подключается.
+
+5. СТОРОННИЕ КОМПОНЕНТЫ И СЕРВИСЫ
+
+ПО может загружать, устанавливать, запускать сторонние компоненты
+или взаимодействовать с ними. Они остаются под своими лицензиями
+и условиями. Настоящее Соглашение не предоставляет прав на них.
+В том числе:
+
+- UE4SS — как правило MIT (по условиям upstream);
+- SteamCMD — условия Valve / Steam;
+- Electron и зависимости npm — собственные лицензии;
+- игра SCUM и выделенный сервер — EULA издателя / разработчика;
+- Discord — условия использования Discord.
+
+Соблюдение этих условий — ваша обязанность.
+
+6. ОБНОВЛЕНИЯ И ПОДДЕРЖКА
+
+Автор вправе публиковать обновления по своему усмотрению и не обязан
+предоставлять бесплатные обновления, бесплатную техническую поддержку
+или дальнейшую разработку.
+
+Лаунчер может проверять GitHub на новые официальные Setup и
+предлагать установку. Скачивание и установка — только после вашего
+подтверждения. Обновление лаунчера не останавливает и не меняет
+SCUM-сервер — он продолжает работать как работал.
+
+Запросы на индивидуальные доработки обсуждаются отдельно
+(Discord: xoma_kz_ekb) и могут быть платными.
+
+7. ИНТЕЛЛЕКТУАЛЬНАЯ СОБСТВЕННОСТЬ
+
+Исключительные права на ПО (кроме сторонних компонентов) принадлежат
+Автору. Обозначения PHOENIX и PHOENIX Launcher используются для
+индивидуализации продукта Автора.
+
+8. ОТКАЗ ОТ ГАРАНТИЙ
+
+ПО ПРЕДОСТАВЛЯЕТСЯ «КАК ЕСТЬ» (AS IS) И «КАК ДОСТУПНО», БЕЗ КАКИХ-ЛИБО
+ГАРАНТИЙ, ЯВНЫХ ИЛИ ПОДРАЗУМЕВАЕМЫХ, ВКЛЮЧАЯ ГАРАНТИИ ТОВАРНОЙ
+ПРИГОДНОСТИ, ПРИГОДНОСТИ ДЛЯ ОПРЕДЕЛЁННОЙ ЦЕЛИ, ЮРИДИЧЕСКОЙ ЧИСТОТЫ
+И НЕНАРУШЕНИЯ ПРАВ ТРЕТЬИХ ЛИЦ.
+
+Автор не гарантирует бесперебойную работу, отсутствие ошибок,
+совместимость с каждой версией SCUM, Windows или зависимостей,
+а также отсутствие потери данных и иных неблагоприятных последствий.
+
+9. ОГРАНИЧЕНИЕ ОТВЕТСТВЕННОСТИ
+
+В МАКСИМАЛЬНОЙ СТЕПЕНИ, ДОПУСКАЕМОЙ ПРИМЕНИМЫМ ПРАВОМ, АВТОР НЕ НЕСЁТ
+ОТВЕТСТВЕННОСТИ ЗА КОСВЕННЫЕ, СЛУЧАЙНЫЕ, ШТРАФНЫЕ УБЫТКИ, УПУЩЕННУЮ
+ВЫГОДУ, ПОТЕРЮ ДАННЫХ, ДЕЛОВОЙ РЕПУТАЦИИ ИЛИ ПРОСТОЙ, ВОЗНИКШИЕ
+В СВЯЗИ С ПО, ДАЖЕ ЕСЛИ АВТОР БЫЛ ПРЕДУПРЕЖДЁН О ВОЗМОЖНОСТИ ТАКИХ
+УБЫТКОВ.
+
+В том числе Автор не отвечает за:
+
+- баны и санкции в игре, на платформе или со стороны античита;
+- утрату или повреждение файлов сервера, баз данных и конфигурации;
+- простой, сбои, неудачные обновления и ошибки настройки;
+- действия стороннего ПО и сервисов.
+
+Ничто в Соглашении не ограничивает ответственность, которую нельзя
+исключить по закону, включая императивные нормы о защите прав
+потребителей.
+
+10. СРОК И ПРЕКРАЩЕНИЕ
+
+Соглашение действует до прекращения. Оно прекращается автоматически
+при существенном нарушении его условий.
+
+После прекращения вы обязаны прекратить использование ПО и удалить
+нарушающие распространяемые копии, кроме случаев, когда закон требует
+иного. Пункты 4, 5, 7, 8, 9, 11 и 12 сохраняют силу после прекращения.
+
+11. ИЗМЕНЕНИЕ УСЛОВИЙ
+
+Автор может обновлять Соглашение в последующих выпусках. Продолжение
+использования ПО после обновления означает принятие новых условий
+в той мере, в какой это допускается законом.
+
+12. ПРИМЕНИМОЕ ПРАВО
+
+К Соглашению применяется право Российской Федерации, без коллизионных
+норм. Императивные нормы страны вашего проживания сохраняют силу.
+
+Споры стороны стремятся урегулировать путём переговоров. При
+недостижении согласия спор подлежит рассмотрению в суде по месту
+жительства Автора, если иное не установлено императивными нормами.
+
+13. ПРОЧИЕ УСЛОВИЯ
+
+Недействительность отдельного положения не затрагивает остальные.
+Соглашение составляет полное договорённость сторон в отношении ПО
+и заменяет прежние заявления по тому же предмету. Неприменение
+какого-либо положения не означает отказ от него.
+
+14. КОНТАКТЫ И ПРИНЯТИЕ
+
+Автор:   ХоМыЧ / Homych
+Discord: xoma_kz_ekb
+GitHub:  https://github.com/xomyak014-ui/phoenix-launcher-releases
+
+Установка или использование PHOENIX Launcher означает, что вы
+прочитали, поняли и приняли настоящее Соглашение.
