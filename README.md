@@ -144,13 +144,19 @@ watchdog, `ServerSettings.ini` and economy editors, SteamCMD updates, a Discord 
 (chat / kills / joins / tickets), a player database, map, bases, VIP / Season Pass / stashes /
 cargo drops and other modules, plus a password-protected web remote with a mobile panel.
 
-**Its own RCON — the headline of 3.8.9.** PHOENIX used to depend on a third-party RCON mod;
+**New in 3.9.0.** The launcher no longer deletes chests that are not its own: while checking its
+stashes it could mistake a chest a player had built on the same spot for one of ours and destroy it
+with everything inside. The player card no longer jumps back to the first tab after an action, and an
+unsaved note about a player is kept. Stash storage was rebuilt so the launcher runs faster and stops
+stalling — if your loot list went missing in that move, I am sorry; set it once on the point and it stays.
+
+**Its own RCON — the headline feature.** PHOENIX used to depend on a third-party RCON mod;
 now the RCON is ours. One button on the “RCON mod” tab installs it. Commands run as a *ghost* admin
 inside the game, so RCON answers **even with nobody on the server**, and the ghost is invisible —
 no body standing in the world for anyone to bump into. The bridge reconnects by itself after a
 server restart, and it can be deployed to a server on another machine over FTP / SFTP.
 
-**Also new in 3.8.9:** upgrade a base from the launcher (it walks that base’s own structures, so the
+**Also in this release:** upgrade a base from the launcher (it walks that base’s own structures, so the
 neighbouring base is never raised — tested six metres apart); the Bases tab rebuilt around flags;
 a starter kit that can trigger for newcomers and after death; stash loot lists stored once instead of
 per point (75 MB → 0.4 MB); server settings re-sorted after the game update and saved atomically.
