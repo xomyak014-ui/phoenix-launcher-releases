@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/версия-3.8.9-ff7a18" alt="версия" />
+  <img src="https://img.shields.io/badge/версия-3.9.0-ff7a18" alt="версия" />
   <img src="https://img.shields.io/badge/Windows-10%20%2F%2011%20x64-0078d4" alt="платформа" />
   <img src="https://img.shields.io/badge/интерфейс-RU%20%2F%20EN-3fb950" alt="язык" />
   <a href="LICENSE"><img src="https://img.shields.io/badge/лицензия-EULA-8b949e" alt="лицензия" /></a>
@@ -70,7 +70,13 @@ Discord, игроки, экономика, модули. И то же самое
 
 ---
 
-## Что нового в 3.8.9
+## Что нового в 3.9.0
+
+- **Лаунчер больше не удаляет чужие ящики.** Проверяя свои тайники, он мог принять за свой ящик, поставленный игроком на том же месте, и снести его вместе с содержимым. Теперь ящик считается своим только сразу после установки; если время упущено, лаунчер оставит его в мире, но чужого не тронет.
+- **Карточка игрока не сбрасывается.** Раньше после любого действия — выдал навык, поменял деньги — окно уезжало на первую вкладку. Заодно перестала пропадать несохранённая заметка об игроке.
+- **Про пропавшие списки лута.** Хранение тайников переделано, чтобы лаунчер работал быстрее и не подвисал. Если при переходе у вас пропал список лута — прошу прощения. Он задаётся заново в точке, и дальше уже не теряется.
+
+## Что было в 3.8.9
 
 - **Свой RCON** — подробно выше.
 - **Прокачка базы из лаунчера.** Кнопка «Прокачать» поднимает постройки базы на уровень — тот же шаг, что делает игра. Стоять в игре не нужно, радиус задавать не нужно: лаунчер обходит постройки именно этой базы, поэтому соседнюю не заденет даже вплотную. Проверено на площадках в шести метрах друг от друга.
@@ -89,7 +95,7 @@ Discord, игроки, экономика, модули. И то же самое
 
 ## Установка
 
-1. Скачайте **`PHOENIX-Launcher-Setup-3.8.9.exe`** из [последнего релиза](../../releases/latest).
+1. Скачайте **`PHOENIX-Launcher-Setup-3.9.0.exe`** из [последнего релиза](../../releases/latest).
 2. Запустите установщик. Если Windows SmartScreen предупредит о неизвестном издателе —
    «Подробнее» → «Выполнить в любом случае» (сборка не подписана сертификатом).
 3. После первого запуска в **Настройках** укажите:
@@ -149,7 +155,7 @@ neighbouring base is never raised — tested six metres apart); the Bases tab re
 a starter kit that can trigger for newcomers and after death; stash loot lists stored once instead of
 per point (75 MB → 0.4 MB); server settings re-sorted after the game update and saved atomically.
 
-**Install:** grab `PHOENIX-Launcher-Setup-3.8.9.exe` from the [latest release](../../releases/latest)
+**Install:** grab `PHOENIX-Launcher-Setup-3.9.0.exe` from the [latest release](../../releases/latest)
 and run it (SmartScreen: “More info” → “Run anyway”). Windows 10/11 x64.
 
 **Updates:** from 3.8.1 the launcher checks this repository on a schedule you choose
