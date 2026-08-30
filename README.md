@@ -1,188 +1,330 @@
 <p align="center">
-  <img src="assets/phoenix-icon.png" width="120" alt="PHOENIX" />
+  <img src="assets/phoenix-icon.png" width="120" alt="PHOENIX Launcher" />
 </p>
 
 <h1 align="center">PHOENIX Launcher</h1>
 
 <p align="center">
-  <strong>Панель управления SCUM Dedicated Server для Windows</strong>
+  <strong>Полный набор инструментов для управления SCUM Dedicated Server</strong><br />
+  Собственный RCON · автоматизация · Discord · игроки и мир · игровые модули · веб-доступ
 </p>
 
 <p align="center">
-  Сервер · RCON · Discord-бот · экономика · игроки · карта · модули · веб-доступ с телефона
+  <a href="https://github.com/xomyak014-ui/phoenix-launcher-releases/releases/latest"><img src="https://img.shields.io/badge/Скачать-PHOENIX%20Launcher-ff7a18?style=for-the-badge" alt="Скачать PHOENIX Launcher" /></a>
+  <img src="https://img.shields.io/badge/Windows-10%20%2F%2011%20x64-0078d4?style=for-the-badge" alt="Windows 10 / 11 x64" />
+  <img src="https://img.shields.io/badge/Интерфейс-RU%20%2F%20EN-3fb950?style=for-the-badge" alt="Русский и английский интерфейс" />
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><img src="https://img.shields.io/badge/Скачать-PHOENIX--Launcher--Setup.exe-ff7a18?style=for-the-badge&logo=windows&logoColor=white" alt="Скачать" /></a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/версия-3.9.2-ff7a18" alt="версия" />
-  <img src="https://img.shields.io/badge/Windows-10%20%2F%2011%20x64-0078d4" alt="платформа" />
-  <img src="https://img.shields.io/badge/интерфейс-RU%20%2F%20EN-3fb950" alt="язык" />
-  <a href="LICENSE"><img src="https://img.shields.io/badge/лицензия-EULA-8b949e" alt="лицензия" /></a>
+  <a href="#features">Возможности</a> ·
+  <a href="#modules">Модули</a> ·
+  <a href="#installation">Установка</a> ·
+  <a href="#contacts">Контакты</a> ·
+  <a href="#english">English</a>
 </p>
 
 ---
 
-## Что это
+## О лаунчере
 
-**PHOENIX** — лаунчер для владельцев и админов **SCUM Dedicated Server**.
-Один интерфейс вместо десятка скриптов, ручных правок конфигов и сторонних модов.
+**PHOENIX Launcher** — приложение для Windows, созданное для владельцев и администраторов **SCUM Dedicated Server**. Оно объединяет запуск сервера, настройку игрового мира, собственный RCON, Discord-бота, работу с игроками, экономикой, базами и транспортом в одной панели.
 
-Поставили, указали папку сервера — дальше всё из окна: запуск и расписание, настройки,
-Discord, игроки, экономика, модули. И то же самое с телефона, если нужно.
+PHOENIX помогает автоматизировать повседневные задачи: перезапуски, выдачу наград, события, сообщения, резервное копирование и восстановление сервера после сбоя. Нужные функции настраиваются отдельно — можно использовать как базовое управление сервером, так и полный набор модулей.
 
----
+Лаунчер устанавливается на ваш компьютер. Для управления из другого места предусмотрены полноценная веб-панель и отдельный мобильный интерфейс.
 
-## Свой RCON — главное в этой версии
+## Собственный RCON PHOENIX
 
-Раньше, чтобы лаунчер мог отдавать команды серверу, приходилось ставить **сторонний RCON-мод**.
-Лаунчер зависел от чужой работы: обновят его или нет, будут ли поддерживать дальше — решали не мы.
+**RCON-мод и лаунчер разработаны как единая система PHOENIX.** Для этой связки не требуется отдельный сторонний RCON-мод.
 
-**Теперь RCON свой, и всё в одних руках.**
+- **Установка из интерфейса.** Вкладка «RCON мод» позволяет установить и настроить компонент на выбранном SCUM-сервере.
+- **Команды внутри игры.** Собственный мост связывает панель управления с сервером и выполняет административные команды.
+- **Работа на пустом сервере.** Невидимый служебный исполнитель позволяет выполнять поддерживаемые команды и автоматические задачи без постоянно подключённого администратора.
+- **Восстановление связи.** После перезапуска сервера лаунчер автоматически восстанавливает соединение.
+- **Удалённое развёртывание.** Файлы компонента можно экспортировать в папку или загрузить на совместимый хостинг по FTP / SFTP.
+- **Консоль и диагностика.** Подключение, отправка команд, проверка связи и отчёты доступны в самом лаунчере.
 
-|  |  |
-|---|---|
-| **Ставится одной кнопкой** | Вкладка «RCON мод» → установить. Лаунчер сам кладёт на сервер небольшой мод и включает его |
-| **Работает без игроков** | Команды выполняет «призрак» — админ внутри самой игры. Он есть всегда, поэтому RCON отвечает, даже когда на сервере нет ни одного человека |
-| **Невидим** | Призрака не видно, не слышно и об него нельзя споткнуться — в мире не стоит ничьё тело |
-| **Поднимается сам** | Связь восстанавливается после рестарта сервера без вашего участия |
-| **Можно на другую машину** | Если сервер не на этом компьютере — выгрузка файлов в папку или заливка по FTP / SFTP прямо из лаунчера |
+Это основа для тайников, выдачи предметов, наград, объявлений и других автоматических действий. Некоторые операции над конкретным игроком требуют его присутствия в игре.
 
-**Что это даёт на практике.** Тайники, награды, стартовые наборы, выдача по расписанию и объявления
-работают круглосуточно — а не только пока кто-то держит админа в игре.
-
----
+<a id="features"></a>
 
 ## Возможности
 
-| | |
-|---|---|
-| **Сервер** | Start / Stop / Restart, флаги запуска, расписание рестартов, watchdog (автоподъём после падения), обновление через SteamCMD |
-| **Настройки** | Редактор `ServerSettings.ini` по категориям с пояснениями к каждой строке, экономика (EconomyOverride), админы / рейды / бан / whitelist, страховочные копии перед каждым сохранением |
-| **Discord** | Игровой чат, входы и выходы, убийства, постройки, техника, тикеты, алерты, логи модулей |
-| **Игроки** | Онлайн и отряды, карточки игроков из `SCUM.db`, VIP, Season Pass, телепорт к базе, награды по расписанию |
-| **Базы** | Список по флагам, прокачка базы одной кнопкой, снять флаг, удалить базу, показать на карте, готовая команда телепорта |
-| **Карта** | Сектора, метки, ящики, координаты для телепортов |
-| **Модули** | Рулетка · Стартовый набор · Магазин · Аренда техники · Тайники · Карго-дроп · Промокоды · Daily / Playtime · Казино · WARGM |
-| **Удалённо** | Веб-панель с паролем (LAN / Tailscale / Cloudflare) и мобильная версия `/m` |
+### Управление сервером и автоматизация
+
+- Запуск, остановка и перезапуск SCUM Dedicated Server.
+- Настройка параметров запуска, портов и количества слотов.
+- Установка и обновление сервера через SteamCMD.
+- Расписание рестартов по времени, дням недели или повторяющемуся интервалу.
+- Управление часовыми роботами по расписанию.
+- Watchdog — контроль состояния и автоматический запуск после падения сервера.
+- Параметры автозапуска лаунчера, сервера и Discord-бота.
+- Главная панель с онлайном, CPU, памятью, временем работы и состоянием подключённых служб.
+- Проверка новых официальных сборок PHOENIX; скачивание и установка только после подтверждения пользователя.
+
+### Консоль и инструменты администратора
+
+- Встроенная RCON-консоль с ответами сервера.
+- Сохранённые, часто используемые и пользовательские команды.
+- Административные действия из карточек игроков и объектов.
+- Инструменты телепортации и копирование готовых команд с координатами.
+- Диагностика подключения и отчёты о выполненных операциях.
+
+### Игроки и отряды
+
+- Список игроков с поиском и фильтрами активности.
+- Просмотр онлайна и группировка игроков по отрядам.
+- Карточки на основе данных `SCUM.db`: профиль Steam, статистика, баланс, активность, отряд, базы и транспорт.
+- Заметки об игроках и доступные действия администратора, включая управление характеристиками, навыками и балансом.
+- Состав отрядов, показатели, флаги и количество построек.
+- Просмотр участников отряда в игре, сброс названия и управление базой отряда.
+
+Доступность отдельных действий зависит от состояния игрока, подключения RCON и актуальности сохранения сервера.
+
+### Базы и флаги
+
+- Список баз по флагам с владельцами и сведениями о постройках.
+- Просмотр базы на карте и копирование команды телепорта.
+- Удаление флага или базы с проверками принадлежности объектов и отчётом о результате.
+- Прокачка построек на один уровень либо до бетона.
+- Выполнение прокачки сразу или после того, как сервер опустеет.
+- Предупреждения перед потенциально тяжёлыми операциями с большими базами.
+
+### Транспорт и карта
+
+- Список транспорта, владельцы, идентификаторы объектов и координаты.
+- Переход к машине на карте и копирование готовой команды телепорта.
+- Удаление отдельной машины; массовое удаление транспорта с дополнительным подтверждением.
+- Интерактивная карта SCUM с секторами, масштабированием и слоями.
+- Метки игроков, транспорта, баз, флагов, ящиков, тайников и карго-дропов.
+- Переход между списком объектов, карточками и соответствующими точками на карте.
+
+### Настройки сервера и экономика
+
+- Редактор `ServerSettings.ini` с категориями и пояснениями к параметрам.
+- Управление списками администраторов, банов, whitelist и временем рейдов.
+- Редактор `EconomyOverride`: поиск и сортировка предметов, настройка цен и параметров.
+- Массовое изменение цен на заданный процент.
+- Копирование кодов предметов для команд и конфигурации модулей.
+- Резервные копии настроек и запись критических файлов через безопасную подмену.
+
+### Discord-бот и журналы
+
+- Передача игрового чата в Discord.
+- Уведомления о входе и выходе игроков.
+- Журналы убийств: PvP, NPC и самоубийства.
+- События строительства и активности транспорта.
+- Уведомления о состоянии сервера и служб лаунчера.
+- Система тикетов и инструменты whitelist.
+- Выгрузки данных, логи модулей и событий.
+- Настройка бота и каналов для нужных типов сообщений.
+
+<a id="modules"></a>
+
+## Игровые и общественные модули
+
+### События и выдача предметов
+
+- **Рулетка.** Запуск командой, по общему таймеру или в платном режиме; настройка призов и правил участия.
+- **Стартовые наборы.** Предметы для новых игроков и режим выдачи после смерти.
+- **Выдача по расписанию.** Автоматическая раздача настроенных предметов в заданное время.
+- **Тайники.** Точки размещения по координатам, тип контейнера или транспорта, лут, охрана, подсказки и настройки появления. Отслеживание срока жизни, тестовый запуск и автоматическая очистка созданных объектов.
+- **Карго-дроп.** Настройка точек, содержимого, появления и уведомлений о событии.
+
+Под **точкой тайника** понимается место его появления на карте, а не очки или игровая валюта.
+
+### Экономика и транспорт
+
+- **Магазин.** Настраиваемый каталог предметов, цены и покупка через игровые команды.
+- **Аренда техники.** Каталог транспорта, стоимость и срок аренды, учёт выданных машин и обработка окончания аренды.
+- **Страховка транспорта.** Настройки и учёт страхования автомобилей.
+- **Казино.** Игровые ставки, выигрыши и настраиваемые правила.
+
+### Награды и привилегии
+
+- **Промокоды.** Коды с настраиваемыми наградами и условиями использования.
+- **Daily.** Награды за ежедневное получение бонуса.
+- **Playtime.** Награды за время, проведённое на сервере.
+- **VIP.** Управление привилегиями и отдельными либо общими правилами модулей.
+- **Season Pass.** Сезонный прогресс и настроенные награды.
+- **Телепорт на базу.** Возвращение игрока к базе по заданным правилам.
+- **WARGM.** Интеграция с мониторингом и системой наград за голосование.
+
+### Общение с игроками
+
+- Автоматические сообщения и объявления по расписанию.
+- Приветствия и уведомления о входе и выходе.
+- Публикация информации об онлайне в игровом чате.
+- Уведомления о событиях модулей и результатах выдачи.
+
+Каждый модуль включается и настраивается отдельно. Для автоматических задач лаунчер должен оставаться запущенным, а необходимые подключения и права — настроенными.
+
+## Редактор миссий
+
+- Создание и редактирование собственных миссий.
+- Поиск, примеры и фильтры по торговцам и уровням заданий.
+- Работа с целями и параметрами миссий.
+- Просмотр официальных заданий и управление их доступностью.
+- Создание необходимых папок и резервных копий файлов миссий.
+- Встроенные пояснения по настройке.
+
+## Резервные копии и файлы
+
+- Автоматические и ручные снимки базы SCUM.
+- Резервное копирование перед рестартами, обновлением сервера и рядом операций с игровыми событиями.
+- Просмотр, создание, восстановление и удаление копий из интерфейса; восстановление базы выполняется при остановленном сервере.
+- Настройка количества сохраняемых копий.
+- Выбор папки данных, просмотр занимаемого места и очистка кэша.
+- Работа с файлами хостинга по FTP / SFTP.
+- Дополнительный локальный FTP / SFTP-сервис для доступа к файлам сервера.
+
+## Веб-панель и мобильный доступ
+
+- Полный интерфейс лаунчера в браузере.
+- Отдельная компактная панель для телефона по адресу `/m`.
+- Вход по паролю.
+- Доступ через локальную сеть, Wi-Fi, Tailscale или Cloudflare.
+- Управление сервером, ботом, RCON и поддерживаемыми модулями с другого компьютера или телефона.
+- Синхронизация изменений между настольным приложением и веб-панелью.
+
+Для удалённого доступа требуется настройка сети. Используйте надёжный пароль и ограничивайте доступ к панели и файловым службам. Возможности удалённого хостинга зависят от предоставленных прав и доступа к файлам сервера.
+
+## Интерфейс
+
+- Русский и английский языки.
+- Настраиваемое название сервера, эмблема и акцентный цвет главной страницы.
+- Навигация по разделам управления, игрового мира и инструментов.
+- Изменяемый порядок разделов.
+- Индикаторы состояния, прогресс операций и отчёты о результатах.
+
+<a id="installation"></a>
+
+## Установка и начало работы
+
+1. Откройте [официальную страницу загрузки](https://github.com/xomyak014-ui/phoenix-launcher-releases/releases/latest) и скачайте установщик **PHOENIX Launcher Setup**.
+2. Установите приложение на Windows и запустите его.
+3. В настройках выберите папку **SCUM Dedicated Server** или установите сервер через SteamCMD.
+4. Настройте соединение во вкладке **«RCON мод»** для игровых команд и связанных с ними модулей.
+5. При необходимости подключите Discord-бота, веб-доступ и файловые службы.
+6. Включите нужные модули, проверьте их настройки и сохраните резервную копию перед важными изменениями.
+
+**Требования:** Windows 10 / 11 x64 и доступ к SCUM Dedicated Server. Для некоторых операций могут потребоваться права администратора. Полное локальное управление предполагает доступ к файлам и процессу сервера; Discord и удалённые подключения настраиваются отдельно.
+
+Рабочие данные по умолчанию находятся в `%APPDATA%\PHOENIX`; папку можно изменить в настройках.
+
+**О загрузке:** установщик не подписан сертификатом, поэтому Windows SmartScreen может показать предупреждение о неизвестном издателе. Проверяйте источник файла. Если доверяете установщику из этого репозитория, продолжить можно через «Подробнее» → «Выполнить в любом случае».
+
+## Лицензия
+
+**PHOENIX Launcher** — независимый проект **ХоМыЧ / Homych**, распространяемый по [проприетарной EULA](LICENSE). Бесплатен для серверов, которыми вы владеете или которые уполномочены администрировать.
+
+Продавать лаунчер или доступ к его скачиванию, присваивать авторство и подменять брендинг в распространяемых сборках запрещено. Полные условия определяются EULA. Сторонние компоненты сохраняют свои лицензии — [THIRD-PARTY-LICENSES.md](THIRD-PARTY-LICENSES.md).
+
+Этот репозиторий содержит описание продукта и официальные сборки. **Исходный код не публикуется.** PHOENIX не является официальным продуктом разработчиков или издателей SCUM.
+
+<a id="contacts"></a>
+
+## Контакты и официальные страницы
+
+- **Разработчик:** ХоМыЧ / Homych
+- **Discord:** `xoma_kz_ekb`
+- **GitHub:** [PHOENIX Launcher](https://github.com/xomyak014-ui/phoenix-launcher-releases)
+- **YouTube:** [PHOENIX Launcher](https://www.youtube.com/@PHOENIXLauncherSCUM)
+- **Nexus Mods:** [Страница PHOENIX Launcher](https://www.nexusmods.com/scum/mods/216)
+- **Обратная связь:** кнопка **Feedback** в приложении
+- **Индивидуальные доработки:** по договорённости с автором в Discord
+
+Не публикуйте Discord-токены, пароли RCON, конфигурации с секретами и личные данные игроков в открытых обращениях.
 
 ---
 
-## Что нового в 3.9.2
+<a id="english"></a>
 
-- **Сообщения игрокам больше не баннером на весь экран.** Повторяющиеся автосообщения, оповещения о входе и выходе и объявление о крупном выигрыше в казино приходят обычной строкой в чат, каждому лично. И несколько сообщений с одинаковым промежутком больше не приходят все разом.
-- **Вкладка «Отряды» переделана.** По каждому отряду сразу видно состав, счёт, флаги и сколько деталей построено, а рядом три кнопки: кто из отряда сейчас в игре, сбросить название, снести базу отряда.
-- **Управление транспортом.** Машину можно удалить, показать на карте и скопировать готовую команду телепорта к ней. Над списком — кнопка, убирающая весь транспорт на сервере: спрашивает дважды и показывает, сколько машин исчезнет.
-- **Удаление и прокачка базы.** Удаление снова убирает базу целиком и не трогает чужое: остаток добирается по записям сервера, а чужие постройки остаются, и в отчёте видно, сколько и почему. Прокачка берёт всю зону флага одним кругом, а в окне теперь выбор из четырёх — «на уровень» или «до бетона», сразу или «когда никого».
-- **Свой флаг в списке баз.** Когда люди строятся рядом, игра сводит постройки в одну запись — и флаг, поставленный внутри неё, показывался под чужим именем. Теперь в каждой строке тот, чей флаг на самом деле.
-- **Код предмета в экономике копируется нажатием**, а в самом низу появилась кнопка YouTube.
+## English
 
-## Что было в 3.9.1
+### SCUM server administration in one application
 
-- **Прописанный лут тайника больше не пропадает.** Страница открывается сразу, а списки лута подтягиваются следом; если тронуть точку в этот момент, пустое поле уходило в сохранение как «лута нет» и затирало список. Теперь пустая карточка ничего не затирает.
-- **Лаунчер больше не удаляет чужие ящики.** Проверяя свои тайники, он мог принять за свой ящик, поставленный игроком на том же месте, и снести его вместе с содержимым. Теперь ящик считается своим только сразу после установки; если время упущено, лаунчер оставит его в мире, но чужого не тронет.
-- **Карточка игрока не сбрасывается.** Раньше после любого действия — выдал навык, поменял деньги — окно уезжало на первую вкладку. Заодно перестала пропадать несохранённая заметка об игроке.
-- **Про пропавшие списки лута.** Хранение тайников переделано, чтобы лаунчер работал быстрее и не подвисал. Если при переходе у вас пропал список лута — прошу прощения. Он задаётся заново в точке, и дальше уже не теряется.
+**PHOENIX Launcher** is a Windows control panel for **SCUM Dedicated Server** owners and administrators. It combines server control, its own RCON system, configuration and economy editors, Discord integration, player and world management, gameplay modules, backups and remote access.
 
-## Что было в 3.8.9
+### PHOENIX's own RCON
 
-- **Свой RCON** — подробно выше.
-- **Прокачка базы из лаунчера.** Кнопка «Прокачать» поднимает постройки базы на уровень — тот же шаг, что делает игра. Стоять в игре не нужно, радиус задавать не нужно: лаунчер обходит постройки именно этой базы, поэтому соседнюю не заденет даже вплотную. Проверено на площадках в шести метрах друг от друга.
-- **Вкладка «Базы» переделана.** Строка на флаг, а не на общую запись игры: две базы рядом снова видно по отдельности. Пять кнопок на карточке, удаление забирает только свои постройки.
-- **Стартовый набор стал стартовым.** Новый режим «Новичкам и после смерти» выдаёт набор тому, кто только пришёл, и тому, кто с прошлого раза погиб. Смерти читаются из файла сохранения, поэтому считаются все — и от зомби, и от голода.
-- **Тайники: лаунчер больше не тормозит.** Списки лута хранятся один раз на всех: 75 МБ базы превратились в 0,4 МБ, страница открывается мгновенно. Ваши точки переносятся сами при первом запуске.
-- **Настройки сервера разложены заново** после обновления игры — 24 настройки уехали не в те категории, все вернулись на места, у каждой есть пояснение.
-- **Сохранение настроек стало безопаснее.** Файл пишется целиком и подменяется разом, поэтому обрыв посреди записи не оставит сервер без `ServerSettings.ini`.
-- **Кнопки «Копировать» работают в браузере.** Раньше через веб-доступ лаунчер рапортовал об успехе, ничего не скопировав.
-- **Платная рулетка** — третий режим: игрок покупает прокрутку командой в чате.
-- Модули приведены к общему виду: полоса с переключателем сверху, настройки карточками рядом.
+Install the RCON component from the launcher, connect through the built-in console and diagnose the connection without a separate third-party RCON mod. An invisible in-game executor handles supported commands and automated tasks even on an empty server. The connection is restored after server restarts. Files can be exported or deployed to compatible hosting through FTP / SFTP. Some player-specific actions require that player to be online.
 
-Полный список изменений — в самом лаунчере: **Настройки → Обновления → Журнал**.
-Прежние версии никуда не деваются — все установщики лежат на [странице релизов](../../releases).
+### Server control and administration
 
----
+- Start, stop and restart the server; configure launch options, ports and player slots.
+- Install and update SCUM Dedicated Server through SteamCMD.
+- Schedule restarts by time, weekday or interval, and configure sentry schedules.
+- Use watchdog recovery and launcher, server and Discord-bot autostart options.
+- View online count, CPU, memory, uptime and service status.
+- Use the RCON console, saved commands, admin actions, diagnostics and operation reports.
+- Check for official PHOENIX builds; downloading and installation require your confirmation.
 
-## Установка
+### Players, squads and world
 
-1. Скачайте **`PHOENIX-Launcher-Setup-3.9.2.exe`** из [последнего релиза](../../releases/latest).
-2. Запустите установщик. Если Windows SmartScreen предупредит о неизвестном издателе —
-   «Подробнее» → «Выполнить в любом случае» (сборка не подписана сертификатом).
-3. После первого запуска в **Настройках** укажите:
-   - папку SCUM Dedicated Server — или установите сервер через SteamCMD прямо из лаунчера;
-   - Discord-токен бота и каналы, если нужен Discord;
-   - RCON — вкладка «RCON мод», кнопка установки сделает всё сама.
+- Search players and activity, inspect online lists and squad membership.
+- View player profiles, statistics, balance, notes, bases, vehicles and available administrative actions.
+- Inspect squad members, scores, flags and building counts; see who is online, reset squad names and manage squad bases.
+- Manage bases by flag, inspect ownership, locate them on the map, remove flags or structures and upgrade buildings by one level or to concrete.
+- Run base upgrades immediately or defer them until the server is empty.
+- Inspect vehicles, owners, IDs and coordinates; copy teleport commands and remove vehicles with confirmation.
+- Browse map sectors and layers for players, vehicles, bases, flags, chests, stashes and cargo drops.
 
-**Требования:** Windows 10 / 11 x64. Данные лежат в `%APPDATA%\PHOENIX` — папку можно сменить в Настройках.
+Available actions depend on RCON connectivity, player state and the freshness of server-save data.
 
----
+### Configuration, economy and Discord
 
-## Обновления
+- Edit `ServerSettings.ini` by category with explanations for settings.
+- Manage admin, ban, whitelist and raid-time files.
+- Edit `EconomyOverride`, search and sort items, adjust prices in bulk and copy item codes.
+- Use configuration backups and safer atomic writes for critical files.
+- Relay game chat to Discord and log joins, leaves, PvP / NPC kills, suicides, building and vehicle events.
+- Configure tickets, whitelist tools, server alerts, data exports and module logs.
 
-Начиная с **3.8.1** лаунчер сам проверяет этот репозиторий: **Настройки → Обновления → PHOENIX Launcher**.
-Как часто проверять — выбираете вы. Когда выходит новая версия, окно всплывает само;
-скачивание и установка — только после вашего подтверждения.
+### Gameplay and community modules
 
-**SCUM-сервер останавливать не нужно.** Обновление лаунчера его не трогает — как работал, так и будет работать.
+- **Roulette:** command-triggered, timer-based and paid modes with configurable prizes.
+- **Starter kits:** rewards for newcomers and post-death recovery.
+- **Scheduled distribution:** automated item delivery at configured times.
+- **Stashes:** spawn locations, containers or vehicles, loot, guards, hints, lifetime tracking, test spawning and automatic cleanup. A stash point is a location on the map, not a score or currency.
+- **Cargo drops:** locations, contents, spawning and announcements.
+- **Store:** configurable catalog, prices and in-game purchases.
+- **Vehicle rental and insurance:** rental catalogs, prices, durations, expiry handling and insurance settings.
+- **Casino:** bets, winnings and configurable rules.
+- **Promo codes:** rewards and redemption conditions.
+- **Daily and playtime rewards:** bonuses for daily claims and time spent on the server.
+- **VIP and Season Pass:** privileges, shared or separate module rules, seasonal progress and rewards.
+- **Base teleport:** player travel to a base under configured rules.
+- **WARGM:** monitoring and voting-reward integration.
+- **Messaging:** scheduled announcements, welcome messages, join / leave notices, online-count messages and module notifications.
 
----
+Modules are enabled separately. Keep the launcher running and the necessary connections configured for scheduled tasks and automation.
 
-## Лицензии
+### Missions, backups and files
 
-- **PHOENIX Launcher** — проприетарная EULA © 2026 ХоМыЧ / Homych → [LICENSE](LICENSE).
-  Бесплатно для серверов, которыми вы управляете.
-  **Продавать лаунчер, ребрендить или продавать сборки запрещено.**
-- **UE4SS** — MIT (upstream) · **SteamCMD** — условия Valve · **Electron / npm** — свои лицензии
-  → [THIRD-PARTY-LICENSES.md](THIRD-PARTY-LICENSES.md)
+- Create and edit custom missions, use examples and filter by trader or tier.
+- Configure mission objectives and manage the availability of official missions.
+- Create mission folders and backups, with built-in setup guidance.
+- Create automatic or manual SCUM database snapshots, manage retention and restore with the server stopped.
+- Inspect data-folder usage, change its location and clean the cache.
+- Work with remote server files through FTP / SFTP or configure an optional local file service.
 
-Исходный код не публикуется. Распространяются только официальные сборки из [Releases](../../releases).
+### Remote access and interface
 
----
+Use the full browser panel or the compact `/m` mobile interface with password authentication through LAN, Wi-Fi, Tailscale or Cloudflare. Supported settings synchronise between the desktop launcher and web panel. Remote-hosting capabilities depend on the access granted by the provider.
 
-## Контакты
+The interface supports Russian and English, a custom server name and emblem, accent colour, adjustable navigation order, status indicators and operation reports. Protect remote panels and file services with strong credentials and appropriate network restrictions.
 
-- Discord: **`xoma_kz_ekb`**
-- Обратная связь — прямо из лаунчера, кнопка **Feedback**
-- Индивидуальные доработки — платно, по договорённости в личке
+### Getting started
 
----
+Download **PHOENIX Launcher Setup** from the [official download page](https://github.com/xomyak014-ui/phoenix-launcher-releases/releases/latest). Install it on Windows 10 / 11 x64, select your SCUM Dedicated Server folder and configure PHOENIX RCON. Enable Discord, remote access and modules as needed. Administrative privileges may be required for some operations.
 
-<h2 align="center">English</h2>
+The installer is unsigned, so SmartScreen may warn about an unknown publisher. Verify the download source. If you trust the file from this repository, choose **More info → Run anyway**. Working data defaults to `%APPDATA%\PHOENIX` and can be relocated in Settings.
 
-**PHOENIX** is a Windows control panel for **SCUM Dedicated Server**: process control and schedules,
-watchdog, `ServerSettings.ini` and economy editors, SteamCMD updates, a Discord bot
-(chat / kills / joins / tickets), a player database, map, bases, VIP / Season Pass / stashes /
-cargo drops and other modules, plus a password-protected web remote with a mobile panel.
+**License:** proprietary [EULA](LICENSE), © 2026 **ХоМыЧ / Homych**. Free for servers you own or are authorised to administer. Selling the launcher or charging for downloads, claiming authorship and replacing branding in distributed builds are prohibited. See the EULA for complete terms. Source code is not published.
 
-**New in 3.9.2.** Messages to players are no longer a full-screen banner: repeating auto-messages, join and leave notices and the casino big-win announcement now arrive as an ordinary chat line, sent to each player personally — and several messages sharing one interval no longer all land at once. The Squads tab was rebuilt: each squad shows members, score, flags and how many building parts it owns, with buttons for who is online, resetting the name and destroying the squad base. Vehicles got the same treatment — destroy, show on the map, copy a ready teleport command, plus a double-confirmed “remove every vehicle”. Base deletion clears a base whole again without touching other people’s parts, upgrading covers the whole flag zone and the upgrade dialog now offers four choices; a flag planted inside someone else’s record is listed under its real owner. Item codes in the Economy tab copy on click, and there is a YouTube button at the bottom.
+**Contact:** Discord `xoma_kz_ekb` or the in-app **Feedback** button. Custom development is available by arrangement with the author. Never include tokens, passwords or private player information in public support requests.
 
-**In 3.9.1.** A stash point no longer loses the loot you set: the page opens at once and loot lists arrive a moment later, and touching a point in that gap used to save the empty field as a deliberate clear. The launcher also no longer deletes chests that are not its own: while checking its
-stashes it could mistake a chest a player had built on the same spot for one of ours and destroy it
-with everything inside. The player card no longer jumps back to the first tab after an action, and an
-unsaved note about a player is kept. Stash storage was rebuilt so the launcher runs faster and stops
-stalling — if your loot list went missing in that move, I am sorry; set it once on the point and it stays.
+PHOENIX is an independent community tool, not an official product of SCUM's developers or publishers.
 
-**Its own RCON — the headline feature.** PHOENIX used to depend on a third-party RCON mod;
-now the RCON is ours. One button on the “RCON mod” tab installs it. Commands run as a *ghost* admin
-inside the game, so RCON answers **even with nobody on the server**, and the ghost is invisible —
-no body standing in the world for anyone to bump into. The bridge reconnects by itself after a
-server restart, and it can be deployed to a server on another machine over FTP / SFTP.
-
-**Also in this release:** upgrade a base from the launcher (it walks that base’s own structures, so the
-neighbouring base is never raised — tested six metres apart); the Bases tab rebuilt around flags;
-a starter kit that can trigger for newcomers and after death; stash loot lists stored once instead of
-per point (75 MB → 0.4 MB); server settings re-sorted after the game update and saved atomically.
-
-**Install:** grab `PHOENIX-Launcher-Setup-3.9.2.exe` from the [latest release](../../releases/latest)
-and run it (SmartScreen: “More info” → “Run anyway”). Windows 10/11 x64.
-
-**Updates:** from 3.8.1 the launcher checks this repository on a schedule you choose
-(Settings → Updates). A dialog appears when a new version is out; download and install happen only
-after you confirm. There is no need to stop the SCUM server — a launcher update does not touch it.
-
-**License:** proprietary EULA © 2026 ХоМыЧ / Homych — see [LICENSE](LICENSE). Free to use on servers
-you operate; selling or rebranding PHOENIX is forbidden. Sources are not published; only official
-builds are distributed via Releases.
-
-**Contact:** Discord `xoma_kz_ekb`.
+<p align="center">© 2026 ХоМыЧ / Homych · PHOENIX Launcher</p>
