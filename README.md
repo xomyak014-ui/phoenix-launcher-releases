@@ -53,7 +53,7 @@ PHOENIX помогает автоматизировать повседневны
 ### Управление сервером и автоматизация
 
 - Запуск, остановка и перезапуск SCUM Dedicated Server.
-- Настройка параметров запуска, портов и количества слотов.
+- Настройка параметров запуска и портов; количество слотов берётся из настроек самого сервера.
 - Установка и обновление сервера через SteamCMD.
 - Расписание рестартов по времени, дням недели или повторяющемуся интервалу.
 - Управление часовыми роботами по расписанию.
@@ -174,7 +174,7 @@ PHOENIX помогает автоматизировать повседневны
 - Резервное копирование перед рестартами, обновлением сервера и рядом операций с игровыми событиями.
 - Просмотр, создание, восстановление и удаление копий из интерфейса; восстановление базы выполняется при остановленном сервере.
 - Настройка количества сохраняемых копий.
-- Выбор папки данных, просмотр занимаемого места и очистка кэша.
+- Выбор папки данных, просмотр занимаемого места, очистка кэша и полный сброс лаунчера к заводским настройкам.
 - Работа с файлами хостинга по FTP / SFTP.
 - Дополнительный локальный FTP / SFTP-сервис для доступа к файлам сервера.
 
@@ -229,7 +229,6 @@ PHOENIX помогает автоматизировать повседневны
 - **Разработчик:** ХоМыЧ / Homych
 - **Discord:** `xoma_kz_ekb`
 - **GitHub:** [PHOENIX Launcher](https://github.com/xomyak014-ui/phoenix-launcher-releases)
-- **YouTube:** [PHOENIX Launcher](https://www.youtube.com/@PHOENIXLauncherSCUM)
 - **Nexus Mods:** [Страница PHOENIX Launcher](https://www.nexusmods.com/scum/mods/216)
 - **Обратная связь:** кнопка **Feedback** в приложении
 - **Индивидуальные доработки:** по договорённости с автором в Discord
@@ -252,7 +251,7 @@ Install the RCON component from the launcher, connect through the built-in conso
 
 ### Server control and administration
 
-- Start, stop and restart the server; configure launch options, ports and player slots.
+- Start, stop and restart the server and configure launch options and ports; the player slot count comes from the server's own settings.
 - Install and update SCUM Dedicated Server through SteamCMD.
 - Schedule restarts by time, weekday or interval, and configure sentry schedules.
 - Use watchdog recovery and launcher, server and Discord-bot autostart options.
@@ -306,7 +305,7 @@ Modules are enabled separately. Keep the launcher running and the necessary conn
 - Configure mission objectives and manage the availability of official missions.
 - Create mission folders and backups, with built-in setup guidance.
 - Create automatic or manual SCUM database snapshots, manage retention and restore with the server stopped.
-- Inspect data-folder usage, change its location and clean the cache.
+- Inspect data-folder usage, change its location, clean the cache or reset the launcher to factory settings.
 - Work with remote server files through FTP / SFTP or configure an optional local file service.
 
 ### Remote access and interface
