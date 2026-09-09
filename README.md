@@ -23,6 +23,14 @@
   <a href="#english">English</a>
 </p>
 
+> [!NOTE]
+> ### Разработка временно приостановлена
+>
+> По личным причинам работа над лаунчером поставлена на паузу — новые версии пока не выходят.
+> Проект не заброшен: разработка продолжится.
+>
+> Последняя версия доступна для скачивания и работает как прежде — на серверах, где лаунчер уже стоит, ничего не меняется.
+
 ---
 
 ## О лаунчере
@@ -240,6 +248,14 @@ PHOENIX помогает автоматизировать повседневны
 <a id="english"></a>
 
 ## English
+
+> [!NOTE]
+> ### Development is paused for now
+>
+> Work on the launcher is on hold for personal reasons — no new releases for the time being.
+> The project is not abandoned: development will continue.
+>
+> The latest version stays available for download and keeps working as before — nothing changes on servers where it is already installed.
 
 ### SCUM server administration in one application
 
